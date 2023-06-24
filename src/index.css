@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200;400&display=swap');
+body{
+  font-family: 'Ysabeau Office', sans-serif;
+  margin: 50px;
+  padding: 0;
+  
+}
+
+.formContainer {
+  max-width: 450px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 20px 40px 20px 20px ;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.radioLabel {
+  display: inline-block;
+  padding: 8px 40px 8px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #eeeeee;
+  
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+#appointmentText {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #eeeeee;
+}
+
+#submitbtn , #modalButton {
+  
+  background-color: #1e7de3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitbtn  {
+  width: 100%;
+  margin: 40px 8px 8px 8px;
+  padding: 8px ; 
+}
+
+
+#submitbtn , #modalbutton :hover {
+  background-color: #0462c7;
+}
+
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.cardBox{
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+}
+
+.cardBox h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cardBoxs p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%
+}
+
+.modal-content {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+
+.close {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+
+
+
+
+
